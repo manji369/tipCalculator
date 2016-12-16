@@ -1,0 +1,40 @@
+#form{
+background-color:white;
+color:#123456;
+box-shadow:0px 1px 1px 1px gray;
+font-Weight:400;
+width:350px;
+margin:50px 250px 0 50px;
+float:left;
+height:300px;
+}
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Fauna One', serif;
+}
+#subtotal{
+width:60%;
+height:30px;
+border-radius:3px;
+padding:2px;
+box-shadow:0px 1px 1px 0px darkgray;
+}
+#tipPercentage{
+margin-top:30px;
+padding:2px;
+}
+#subLabel{
+margin-left: 5px
+}
+#display{
+margin-top: 20px;
+color: blue;
+}
+#submit{
+margin-top:20px;
+}
+#formContents{
+margin-left: 20px;
+}

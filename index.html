@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tip Calculator</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+<div id="mainform">
+<form id="form" name="form" action="process.php">
+<div id="formContents">
+<h3>Enter subtotal and Tip Percentage</h3>
+<div id="subLabel"> Subtotal : $ <input type="text" name="subtotal" id="subtotal"></div>
+<div id="tipLabel">Tip Percentage: <input type="radio" name="tipPercentage" id="tipPercentage" value="10" checked> 10%
+<input type="radio" name="tipPercentage" id="tipPercentage" value="15"> 15%
+<input type="radio" name="tipPercentage" id="tipPercentage" value="20"> 20%</div>
+<input id="submit" type="submit" value="Submit">
+<div id="display">
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
